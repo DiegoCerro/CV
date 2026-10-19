@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Diego Cerro — CV</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: A4; margin: 0; }
+  html, body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif;
+    color: #000;
+    background: #fff;
+    font-size: 10.5pt;
+    line-height: 1.35;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 15mm 18mm 14mm;
+  }
+
+  /* ---------- HEADER ---------- */
+  .name {
+    text-align: center;
+    font-size: 17pt;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .contact {
+    text-align: center;
+    font-size: 9.5pt;
+    margin-top: 1.5mm;
+  }
+  .contact span + span::before { content: "  ·  "; white-space: pre; }
+
+  /* ---------- SECTIONS ---------- */
+  h2 {
+    font-size: 10pt;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    border-bottom: .35mm solid #000;
+    padding-bottom: .8mm;
+    margin: 5.5mm 0 2.5mm;
+  }
+
+  .summary { text-align: justify; }
+
+  .entry { margin-bottom: 3.5mm; }
+  .entry:last-child { margin-bottom: 0; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 6mm; }
+  .row .right { white-space: nowrap; font-size: 9.5pt; }
+  .org { font-weight: 700; }
+  .role { font-style: italic; }
+  .entry > p { margin-top: .8mm; }
+
+  ul.bullets { margin: 1mm 0 0 5mm; }
+  ul.bullets li { margin-bottom: .8mm; }
+
+  .skill-line { margin-bottom: 1mm; }
+  .skill-line b { font-weight: 700; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <!-- HEADER -->
+    <div class="name">Diego Cerro</div>
+    <div class="contact">
+      <span>Valencia, España</span>
+      <span>diegocerro04@gmail.com</span>
+      <span>github.com/DiegoCerro</span>
+    </div>
+
+    <!-- PERFIL -->
+    <h2>Perfil</h2>
+    <p class="summary">
+      Desarrollador de aplicaciones multiplataforma. Desarrollo y mantengo apps con una sola
+      base de código para varias plataformas, tocando el producto de punta a punta —del código
+      a la infraestructura. Formo parte del equipo que da soporte a un producto usado por más
+      de 1.400 clubes en 60 países. Persona proactiva y resolutiva, cómoda trabajando en Scrum
+      y con foco en IA aplicada para construir mejor y más rápido. Inglés C1.
+    </p>
+
+    <!-- EXPERIENCIA -->
+    <h2>Experiencia</h2>
+    <div class="entry">
+      <div class="row">
+        <span class="org">Matchpoint by Matchi</span>
+        <span class="right">Valencia</span>
+      </div>
+      <div class="row">
+        <span class="role">Desarrollador de Aplicaciones Multiplataforma</span>
+        <span class="right">Jun 2025 — actualidad</span>
+      </div>
+      <div class="row">
+        <span class="role">Desarrollador de Aplicaciones Multiplataforma (prácticas)</span>
+        <span class="right">Mar 2025 — Jun 2025</span>
+      </div>
+      <p>Software de gestión para centros deportivos usado por más de 1.400 clubes en 60 países.</p>
+      <ul class="bullets">
+        <li>Desarrollo y mantenimiento de las apps multiplataforma del producto.</li>
+        <li>Gestión de servidores y proyectos, con despliegues en IIS.</li>
+        <li>Trabajo con bases de datos y APIs que alimentan el producto.</li>
+        <li>Trabajo en equipo con metodología Scrum (Monday · Slack).</li>
+      </ul>
+    </div>
+
+    <!-- FORMACIÓN -->
+    <h2>Formación</h2>
+    <div class="entry">
+      <div class="row">
+        <span class="org">IES Serpis</span>
+        <span class="right">Valencia</span>
+      </div>
+      <div class="row">
+        <span class="role">Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</span>
+        <span class="right">2024 — 2025</span>
+      </div>
+      <p>Programación, bases de datos, desarrollo móvil y de escritorio, y trabajo por proyectos reales.</p>
+    </div>
+    <div class="entry">
+      <div class="row">
+        <span class="org">IES Serpis</span>
+        <span class="right">Valencia</span>
+      </div>
+      <div class="row">
+        <span class="role">Bachillerato</span>
+        <span class="right">2023 — 2025</span>
+      </div>
+    </div>
+
+    <!-- COMPETENCIAS TÉCNICAS -->
+    <h2>Competencias técnicas</h2>
+    <div class="skill-line"><b>Multiplataforma:</b> Flutter · React Native · Kotlin Multiplatform · .NET MAUI</div>
+    <div class="skill-line"><b>Lenguajes:</b> Kotlin · Dart · Swift · TypeScript · JavaScript · Java</div>
+    <div class="skill-line"><b>Backend y datos:</b> APIs REST · SQL Server · SQL</div>
+    <div class="skill-line"><b>IA aplicada:</b> APIs de LLMs · Prompting · RAG · Agentes / tooling</div>
+    <div class="skill-line"><b>Infraestructura y herramientas:</b> IIS · Git · VS Code · Gestión de servidores</div>
+    <div class="skill-line"><b>Metodología:</b> Scrum · Metodologías ágiles · Monday · Slack</div>
+
+    <!-- INFORMACIÓN ADICIONAL -->
+    <h2>Información adicional</h2>
+    <div class="skill-line"><b>Idiomas:</b> Español (nativo) · Inglés (C1)</div>
+    <div class="skill-line"><b>Otros:</b> Carnet de conducir · Disponibilidad para viajar · Remoto o presencial</div>
+  </div>
+</body>
+</html>
