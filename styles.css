@@ -405,6 +405,7 @@ img { max-width: 100%; display: block; }
   transition: color .3s;
 }
 .contact-social a:hover { color: var(--accent); }
+.contact-note { display: block; margin-top: .5rem; font-size: .8rem; color: var(--ink-soft); opacity: .75; }
 
 /* ---------- FOOTER ---------- */
 .footer {
