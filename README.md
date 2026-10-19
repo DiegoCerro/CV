@@ -53,7 +53,7 @@ Añadir dentro del `<head>` de `index.html`:
 ## Despliegue (GitHub Pages)
 
 La web está publicada con **GitHub Pages** desde la rama `main`, carpeta raíz.
-El repo usa una identidad de git **local** (Diego Cerro · diegocerro04@gmail.com),
+El repo usa una identidad de git **local** (Diego Cerro · email privado `noreply` de GitHub),
 sin tocar la configuración global del equipo.
 
 ### Cómo subir cambios
